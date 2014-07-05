@@ -8,10 +8,7 @@
 
 	<head data-user="<?php p($_['user_uid']); ?>" data-requesttoken="<?php p($_['requesttoken']); ?>">
 		<title>
-			<?php
-				p(!empty($_['application'])?$_['application'].' - ':'');
-				p($theme->getTitle());
-			?>
+			Musey Cloud
 		</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
